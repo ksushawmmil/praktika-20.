@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <title>Мое портфолио</title>
+  
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Мое портфолио</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#about">Обо мне</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Портфолио</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Контакты</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="jumbotron">
+    <h1 class="display-4">Привет, я Логощук Анастасия</h1>
+    <img src="/home/autologin/Рабочий стол/3 bcgd 3r/photo_5220197225899085240_x.jpeg" />
+    <p class="lead">Девочка из Тольятти</p>
+    <a class="btn btn-primary btn-lg" href="#contact" role="button">Свяжитесь со мной</a>
+  </header>
+
+  <section id="about">
+    <div class="container">
+      <h2>Обо мне</h2>
+      <p>У меня два кота, две крысы и Сережа</p>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <div class="container">
+      <h2>Мое портфолио</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="image1.jpg" alt="Проект 1">
+          <h4>Коты</h4>
+          <img src="/home/autologin/Рабочий стол/3 bcgd 3r/photo_5220197225899085240_x.jpeg" width="150" height="150"/>
+          <p>Тут что-то про котов</p>
+        </div>
+        <div class="col-md-4">
+          <img src="image2.jpg" alt="Проект 2">
+          <h4>Крысы</h4>
+          <img src="/home/autologin/Рабочий стол/3 bcgd 3r/photo_5220197225899085243_y.jpeg" width="150" height="150" />
+          <p>Тут что-то про крыс</p>
+        </div>
+        <div class="col-md-4">
+          <img src="image3.jpg" alt="Проект 3">
+          <h4>Сережа</h4>
+          <img src="/home/autologin/Рабочий стол/3 bcgd 3r/photo_5220197225899085244_y.jpeg" width="150" height="150" />
+          <p>Тут что-то про Сережу. (У нас не было фото Сережи, поэтому тут мой кот Том)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Свяжитесь со мной</h2>
+      <form>
+        <div class="form-group">
+          <label for="name">Имя</label>
+          <input type="text" class="form-control" id="name" placeholder="Введите ваше имя">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Введите ваш email">
+        </div>
+        <div class="form-group">
+          <label for="message">Сообщение</label>
+          <textarea class="form-control" id="message" rows="3" placeholder="Введите ваше сообщение"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Отправить сообщение</button>
+      </form>
+    </div>
+  </section>
+
+</body>
+</html>
+
